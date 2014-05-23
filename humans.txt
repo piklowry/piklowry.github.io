@@ -1,8 +1,8 @@
 /* TEAM */
-Developer: My name
-Site: http://mysite.com
-Twitter: @myhandle
-Location: Any town, USA
+Developer: Patrick Lowry
+Site: http://piklowry.github.com
+Twitter: @pklowry
+Location: Atlanta, USA
 
 /* THANKS */
 Middleman: http://middlemanapp.com
