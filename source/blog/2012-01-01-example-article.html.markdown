@@ -6,7 +6,7 @@ tags:
 - latin
 ---
 
-This is an example article. You probably want to delete it and write your own articles!
+This will work i think. You probably want to delete it and write your own articles!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
 Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
