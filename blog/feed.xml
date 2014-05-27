@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog Name</title>
-  <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/</id>
-  <link href="http://blog.url.com/"/>
+  <title>Patrick Lowry</title>
+  <subtitle>My Blog</subtitle>
+  <id>http://piklowry.github.io</id>
+  <link href="http://piklowry.github.io"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
   <updated>2012-01-01T06:00:00Z</updated>
   <author>
@@ -18,16 +18,16 @@
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;This will work i think. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <summary type="html">&lt;h1&gt;5 Common Relationship Assignment Mistakes in Ruby&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
 Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
 ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
 Pellentesque facilisis eros ut ultrices ultrices.
 </summary>
-    <content type="html">&lt;p&gt;This will work i think. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <content type="html">&lt;h1&gt;5 Common Relationship Assignment Mistakes in Ruby&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
 Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
 ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
 Pellentesque facilisis eros ut ultrices ultrices.
