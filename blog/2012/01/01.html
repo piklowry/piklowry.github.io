@@ -10,7 +10,19 @@
 <link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="/javascripts/all.js" type="text/javascript"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+<style>
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
 
+.type1 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+}
+
+</style>
 <!-- Favicon -->
 
 
@@ -22,6 +34,7 @@
 
 <!-- Header -->
 <header id="header">
+
 
     <div id="header_wrap">
 
@@ -37,9 +50,9 @@
             <!-- Nav Bar (LEFT) -->
             <nav>
                 <ul>
-                    <li><a href="index.html" class="nav_link"  id="nav_current" title="Home">Home</a></li>
-                    <li><a href="archive.html" class="nav_link" title="Archive">Archive</a></li>
-                    <li><a href="contact.html" class="nav_link" title="Contact">Contact</a></li>
+                    <li><a href="/blog" class="nav_link"  id="nav_current" title="Home">Blog</a></li>
+                    <li class="portfolio"><a href="/portfolio.html">Portfolio</a></li>
+                     
                 </ul>
             </nav>
 
@@ -94,7 +107,7 @@
 
     <!-- Icon Image can be modified in #Icon CSS Rule -->
     <div id="icon">
-        <a href="" title="Icon" img src="images/pklowry.jpg" /><div id="icon_link"></div></a>
+        <a href="" title="Icon" /><img src="images/pklowry.png" style=" border-radius: 50%; height:100%; width:100%"/><div id="icon_link"></div></a>
     </div>
 
 </div>
@@ -106,7 +119,7 @@
 <div class="categories">
     <nav>
         <ul>
-            <li><a href="#" class="categories_link" id="current_categories" title="All">All</a></li>
+            <li><a href="#" class="categories_link" id="current_categories" title="All">All Posts</a></li>
             <li><a href="#" class="categories_link" title="Photography">Photography</a></li>
             <li><a href="#" class="categories_link" title="Videos">Videos</a></li>
             <a class="categories_link" id="more"><i class="fa fa-angle-double-down fa-lg" id="sort_down"></i></a></li>
@@ -115,7 +128,7 @@
 </div>
 
 <!-- Unlisted Categories - Press "#more" to show -->
-<div id="categories_unlisted" class="categories">
+<!-- <div id="categories_unlisted" class="categories">
     <nav>
         <ul>
             <li><a href="#" class="categories_link" title="Books">Books</a></li>
@@ -124,7 +137,7 @@
             <li><a href="#" class="categories_link" title="Work">Work</a></li>
         </ul>
     </nav>
-</div>
+</div> -->
 
 <!-- Post #1 will single photo -->
 <article class="post">
@@ -136,7 +149,7 @@
         <div class="post_type" id="photo"></div>
 
         <!-- Post Media Image -->
-        <img src="images/myprojectpic.png" alt="Photo" />
+       <!--  <img src="images/myprojectpic.png" alt="Photo" /> -->
 
     </section>
 
@@ -150,7 +163,7 @@
             <div class="post_title"><a href="/blog/2012/01/01/example-article.html">Lorem Ipsum</a></a></div>
 
             <!-- Post Header -->
-            <div class="post_date">December 2, 2013</div>
+            <div class="post_date"></div>
 
         </header>
 
@@ -174,14 +187,14 @@ Pellentesque facilisis eros ut ultrices ultrices.
             <div class="post_footer_left">
 
                 <!-- Read More Button-->
-                <a href="post_image.html" title="Read More"><div class="post_read_more_pad"><div class="post_read_more">Read More</div></div></a>
+                <a href="post_image.html" title="Read More"><div class="post_read_more_pad"><div class="post_read_more">ReadMore</div></div></a>
 
                 <!-- User/Comment/Favorite Icons -->
                 <div class="post_comment_icons">
                     <ul>
-                        <li><a href="post_image.html" class="user_icon" title="Users"><i class="fa fa-user"></i>291</a></li>
+                        <li><a href="post_image.html" class="user_icon" title="Users"><i class="fa fa-user"></i></a></li>
                         <li><a href="post_image.html" class="comment_icon" title="Comments"><i class="fa fa-comment"></i>0</a></li>
-                        <li><a href="post_image.html" class="heart_icon" title="Favorites"><i class="fa fa-heart"></i>60</a></li>
+                        <li><a href="post_image.html" class="heart_icon" title="Favorites"><i class="fa fa-heart"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -301,6 +314,9 @@ Pellentesque facilisis eros ut ultrices ultrices.
         </ul>
 
     </div> -->
+<div class="content">
+        <p>Built with <i class="icon-heart"></i> in Atlanta, GA by <a href="http://github.com/piklowry">Patrick Lowry</a></p>
+      </div>
 
 </footer>
 
@@ -311,6 +327,27 @@ Pellentesque facilisis eros ut ultrices ultrices.
 </footer>
 
 </section>
+
+   <script>
+      document.write('<script src=' +
+        ('__proto__' in {} ? "/javascripts/zepto.js" : "/javascripts/jquery.js") +
+        '><\/script>')
+    </script>
+
+    <!-- Javascript -->
+    <script src="/javascripts/application.js" type="text/javascript"></script>
+    
+
+    <script>
+      $(document).ready(function () {
+        
+        $(document).foundation();
+      });
+
+      // TODO: Set your Google Analytics code here
+      var _gaq=[['_setAccount','UA-111111111-11'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
 
 <!-- Blur.js - https://github.com/jakiestfu/Blur.js -->
 <script type="text/javascript" src="source/javascripts/blur.min.js"></script>
